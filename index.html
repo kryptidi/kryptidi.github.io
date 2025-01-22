@@ -25,6 +25,11 @@
   		background-clip: text;
   		-webkit-text-fill-color: transparent;
 	}
+	.img {
+  		flex: 1; /* This will make all the images take equal width */
+  		object-fit: cover; /* This will make sure the images maintain their proportions */
+  		margin: 0px; /* This will add some spacing between the images */
+	}
 </style>
 
 </head>
@@ -39,4 +44,7 @@
 
 
 </body>
+<div class="img">
+	<img src="media/eyeborder.png" alt="eyeborder" width="48" height="48">
+</div>
 
