@@ -1,0 +1,70 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    margin: 1px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    background-image: repeating-conic-gradient(rgb(255, 203, 203), rgb(137, 255, 137), rgb(205, 205, 248), rgb(255, 230, 185));
+    background-size: fill;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body p {
+    margin: 10px;
+    padding: 10px;
+}
+.logo {
+    animation: wave 2s ease-in-out infinite alternate;
+    text-align: center;
+    filter: drop-shadow(3px 3px 3px #525252);
+    scale: 0.50;
+
+
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+    color: white;
+}
+.bottomnav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 1px 0px 0px 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+.bottomnav a {
+    animation: large 0.5 ease-in-out infinite alternate;
+}
+@keyframes wave {
+    from {
+        transform: rotate(2deg);
+    }
+    to {
+        transform: rotate(-2deg);
+
+    }
+}
+@keyframes large {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(180);
+    }
+}
+@keyframes shadow {
+    from {
+        filter: drop-shadow(3px 3px 3px #ffff);
+    }
+    to {
+        filter: drop-shadow(3px 3px 3px #3d3d3d);
+    }
+}
