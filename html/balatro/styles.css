@@ -1,5 +1,7 @@
 body {
 	text-align: center;
+	background-image: repeating-conic-gradient(rgb(255, 203, 203), rgb(137, 255, 137), rgb(205, 205, 248), rgb(255, 230, 185));
+    	background-size: fill;
 }
 .mimic-joker {
 	display: grid;
